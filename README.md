@@ -15,7 +15,7 @@ function startCrowdsale() public onlyAdmin{}
 
 These 100 Million tokens are stored in smart contract
 
-** There are two Ico phase **
+**There are two Ico phase**
 1. Pres Sale - Below 30 Million (Prise - 0.0125)
 2. After Pre Sale - Over 30 Million (Prise - 0.0255)
 
