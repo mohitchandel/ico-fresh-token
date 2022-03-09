@@ -2,7 +2,7 @@
 
 Fresh Token Smart Contract
 
-Token is created on Rinkeby Test network
+Token is created and deployed on Rinkeby Test network (0x32C54FAB8581509C5E272cAdB6566da25a690DF2)
 
 ## How to start ICO
 
