@@ -1,0 +1,8 @@
+{
+  "name": "fresh-ico",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "openzeppelin-solidity": "^4.5.0"
+  }
+}
