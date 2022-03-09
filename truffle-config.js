@@ -1,5 +1,5 @@
 const HDWalletProvider = require('@truffle/hdwallet-provider');
-const infuraKey = "fj4jll3k.....";
+const infuraKey = "0d2ce437ceee43b8a4d66d6d01e634c9";
 
 const fs = require('fs');
 const mnemonic = fs.readFileSync(".secret").toString().trim();
@@ -13,7 +13,7 @@ module.exports = {
       network_id: "*",
     },
     rinkeby: {
-      privider: () => new HDWalletProvider(mnemonic, `https://rinkeby.infura.io/v3/0d2ce437ceee43b8a4d66d6d01e634c9`),
+      privider: () => new HDWalletProvider(mnemonic, `https://rinkeby.infura.io/v3/${infuraKey}`),
       network_id: 4,
       gas: 5500000,
       gasPrice: 5000000000
@@ -30,12 +30,6 @@ module.exports = {
       },
     },
   },
-
-  // Truffle DB is currently disabled by default; to enable it, change enabled: false to enabled: true
-  //
-  // Note: if you migrated your contracts prior to enabling this field in your Truffle project and want
-  // those previously migrated contracts available in the .db directory, you will need to run the following:
-  // $ truffle migrate --reset --compile-all
 
   db: {
     enabled: false,
