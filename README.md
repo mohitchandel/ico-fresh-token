@@ -28,7 +28,7 @@ to admin (who created smart contract).
 function endCrowdsale() public onlyAdmin{}
 ```
 
-###### Buy Fresh Token
+## Buy Fresh Token
 
 with *buyFreshToken* users can buy Fresh Token. The user will put the Ethereum amount as a parameter and this function will calculate how many tokens will be allotted according to the given price.
 
