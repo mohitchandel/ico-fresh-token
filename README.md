@@ -19,14 +19,6 @@ These 100 Million tokens are stored in smart contract
 1. Pres Sale - Below 30 Million (Prise - $0.0125)
 2. After Pre Sale - Over 30 Million (Prise - $0.0255)
 
-## How to end ICO
-
-*endCrowdsale* function will end ICO and will transfer ethereum amount present in contract 
-to admin (who created smart contract).
-
-```
-function endCrowdsale() public onlyAdmin{}
-```
 
 ## Buy Fresh Token
 
